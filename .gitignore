@@ -1,0 +1,4 @@
+# Cuda Study Git Ignore
+/Cuda/x64
+/Cuda/Cuda/x64
+/Cuda/.vs

@@ -14,7 +14,16 @@
     <CudaCompile Include="File.cu">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </CudaCompile>
-    <CudaCompile Include="File2_AddVectors.cu" />
+    <CudaCompile Include="File2_AddVectors.cu">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CudaCompile>
+    <CudaCompile Include="File3_JuliaSet_GPU.cu">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CudaCompile>
+    <CudaCompile Include="File3_JuliaSet_CPU.cu">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CudaCompile>
+    <CudaCompile Include="File4_Add_thread.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="File1.cu">

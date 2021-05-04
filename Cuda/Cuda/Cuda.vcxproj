@@ -23,7 +23,10 @@
     <CudaCompile Include="File3_JuliaSet_CPU.cu">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </CudaCompile>
-    <CudaCompile Include="File4_Add_thread.cu" />
+    <CudaCompile Include="File4_Add_thread.cu">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CudaCompile>
+    <CudaCompile Include="File5_Add_trheadNblock.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="File1.cu">

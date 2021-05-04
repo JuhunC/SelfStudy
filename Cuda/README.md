@@ -1,5 +1,9 @@
 # Cuda
 
+
+Cuda Programming Model: https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/
+
+
 - Function, Variables
 ```
 __HOST__   : Runs on CPU, called from CPU

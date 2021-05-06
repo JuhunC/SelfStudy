@@ -26,7 +26,10 @@
     <CudaCompile Include="File4_Add_thread.cu">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </CudaCompile>
-    <CudaCompile Include="File5_Add_trheadNblock.cu" />
+    <CudaCompile Include="File5_Add_trheadNblock.cu">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CudaCompile>
+    <CudaCompile Include="File6_Dot_SharedMemory.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="File1.cu">

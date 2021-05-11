@@ -29,7 +29,10 @@
     <CudaCompile Include="File5_Add_trheadNblock.cu">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </CudaCompile>
-    <CudaCompile Include="File6_Dot_SharedMemory.cu" />
+    <CudaCompile Include="File6_Dot_SharedMemory.cu">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CudaCompile>
+    <CudaCompile Include="File7_RayTracing.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="File1.cu">

@@ -19,7 +19,7 @@ int main(void)
 	cudaMalloc((void**)&dev_b, N * sizeof(int));
 	cudaMalloc((void**)&dev_c, N * sizeof(int));
 
-	for (int i = 0; i < N; i++) //luv john
+	for (int i = 0; i < N; i++)
 	{
 		a[i] = -i;
 		b[i] = i * i;

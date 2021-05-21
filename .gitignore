@@ -1,0 +1,7 @@
+./gtest/build
+Cuda/.vs/
+Cuda/cuda_by_example/
+Cuda/Cuda/x64/
+Cuda/x64/
+gtest/LearningGtest/build/
+gtest/LearningGtest/CMakeFiles/cmake.check_cache

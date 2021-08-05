@@ -1,7 +1,9 @@
+# Gtest Git Ignore
 ./gtest/build
-Cuda/.vs/
-Cuda/cuda_by_example/
-Cuda/Cuda/x64/
-Cuda/x64/
 gtest/LearningGtest/build/
 gtest/LearningGtest/CMakeFiles/cmake.check_cache
+# Cuda Study Git Ignore
+/Cuda/x64
+/Cuda/Cuda/x64
+/Cuda/.vs
+/Cuda/cuda_by_example
